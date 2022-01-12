@@ -1,5 +1,8 @@
 @media only screen and (max-width: 600px) {
- 
+
+.header-container{
+        margin: 0 20px;
+    }
 .container{
     background-color: #ffff;
     padding: 13px 20px 0px 70px;
@@ -13,23 +16,16 @@
     grid-row-gap: 5px;
 }
 .blogs{
-    display: flex;
-    flex-direction: column;
-}
-.course-section{
-    margin-top: 21px;
-    height: 100%;
-    width: 100%;
+    grid-template-columns: repeat(1,1fr);
 }
 .latest-course{
     display: flex;
     flex-direction: column;
-    width: 80%;
     justify-content: center;
     align-items: center;
 }
 .latest-course .course{
-    width: 60%;
+    width: 80%;
     margin-bottom: 20px;
 
 }
